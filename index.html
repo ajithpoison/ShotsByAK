@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>ShotsByAjithKumar</title>
+		<meta name="description" content="A simple slideshow with a reveal transition and a fullscreen content view" />
+		<meta name="keywords" content="slideshow, reveal, effect, animation, web design, template, demo" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="loading">
+		<svg class="hidden">
+			<symbol id="icon-arrow" viewBox="0 0 24 24">
+				<title>arrow</title>
+				<polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "/>
+			</symbol>
+			<symbol id="icon-camera" viewBox="0 0 420.8 420.8" xmlns="http://www.w3.org/2000/svg">
+				<title>ShotsByAK</title>
+				<path d="M406.8 96.4c-8.4-8.8-20-14-33.2-14h-66.4v-.8c0-10-4-19.6-10.8-26-6.8-6.8-16-10.8-26-10.8h-120c-10.4 0-19.6 4-26.4 10.8-6.8 6.8-10.8 16-10.8 26v.8h-66c-13.2 0-24.8 5.2-33.2 14-8.4 8.4-14 20.4-14 33.2v199.2C0 342 5.2 353.6 14 362c8.4 8.4 20.4 14 33.2 14h326.4c13.2 0 24.8-5.2 33.2-14 8.4-8.4 14-20.4 14-33.2V129.6c0-13.2-5.2-24.8-14-33.2zM400 328.8h-.4c0 7.2-2.8 13.6-7.6 18.4s-11.2 7.6-18.4 7.6H47.2c-7.2 0-13.6-2.8-18.4-7.6-4.8-4.8-7.6-11.2-7.6-18.4V129.6c0-7.2 2.8-13.6 7.6-18.4s11.2-7.6 18.4-7.6h77.2c6 0 10.8-4.8 10.8-10.8V81.2c0-4.4 1.6-8.4 4.4-11.2s6.8-4.4 11.2-4.4h119.6c4.4 0 8.4 1.6 11.2 4.4 2.8 2.8 4.4 6.8 4.4 11.2v11.6c0 6 4.8 10.8 10.8 10.8H374c7.2 0 13.6 2.8 18.4 7.6s7.6 11.2 7.6 18.4v199.2z"/>
+				<path d="M210.4 130.8c-27.2 0-52 11.2-69.6 28.8-18 18-28.8 42.4-28.8 69.6s11.2 52 28.8 69.6c18 18 42.4 28.8 69.6 28.8s52-11.2 69.6-28.8c18-18 28.8-42.4 28.8-69.6s-11.2-52-28.8-69.6c-17.6-17.6-42.4-28.8-69.6-28.8zM264.8 284c-14 13.6-33.2 22.4-54.4 22.4S170 297.6 156 284c-14-14-22.4-33.2-22.4-54.4 0-21.2 8.8-40.4 22.4-54.4 14-14 33.2-22.4 54.4-22.4s40.4 8.8 54.4 22.4c14 14 22.4 33.2 22.4 54.4.4 21.2-8.4 40.4-22.4 54.4z"/>
+				<circle cx="352.8" cy="150" r="19.6"/>
+			</symbol>
+			<symbol id="icon-drop" viewBox="0 0 24 24">
+				<title>drop</title>
+				<path d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z"/><path d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z"/>
+			</symbol>
+
+			<symbol id="icon-booknow" viewBox="0 -9 512 511" xmlns="http://www.w3.org/2000/svg">
+				<path d="M174.34 245.32c0 8.703-7.059 15.762-15.766 15.762-8.703 0-15.762-7.059-15.762-15.762 0-8.707 7.06-15.761 15.762-15.761 8.707 0 15.766 7.054 15.766 15.761zm0 0M297.746 245.32c0 8.703-7.055 15.762-15.762 15.762-8.703 0-15.761-7.059-15.761-15.762 0-8.707 7.058-15.761 15.761-15.761 8.707 0 15.762 7.054 15.762 15.761zm0 0"/>
+				<path d="M479.57 318.656v-8.27c0-7.96-6.476-14.44-14.441-14.44h-46.57c-7.961 0-14.438 6.48-14.438 14.44v8.266h-46.437c.296-1.597.578-3.203.812-4.812 11.504-2.266 22.02-8.117 30.086-16.84 9.531-10.309 14.781-23.727 14.781-37.777v-16.094c0-19.215-15.629-34.844-34.843-34.844h-8.641v-4.039a394.285 394.285 0 0 0 18.066-2.922c46.73-8.734 69.442-23.37 69.442-44.746 0-24.18-30.27-43.058-87.64-54.754V63.293C359.746 28.668 331.577.5 296.956.5c-10.879 0-21.602 2.828-31.008 8.184-13.344 7.597-27.937 11.613-42.199 11.613h-.11c-14.261 0-28.855-4.016-42.199-11.613C172.035 3.328 161.313.5 150.434.5c-34.621 0-62.79 28.168-62.79 62.793v38.535C30.27 113.52 0 132.398 0 156.578c0 21.375 22.715 36.012 69.441 44.746 3.133.586 6.395 1.149 9.762 1.684v5.277h-8.332c-19.21 0-34.844 15.63-34.844 34.844v16.094a55.506 55.506 0 0 0 14.664 37.652c8 8.71 18.45 14.582 29.887 16.906 4.074 27.746 17.125 53.235 36.723 72.766v81.613c0 14.016 11.402 25.414 25.414 25.414h336.68c17.976 0 32.605-14.625 32.605-32.601V351.258c0-17.918-14.531-32.504-32.43-32.602zm-60.46-7.719h45.468v7.715H419.11zM150.433 15.493a47.766 47.766 0 0 1 23.59 6.223c15.601 8.879 32.757 13.574 49.613 13.574h.113c16.855 0 34.012-4.695 49.613-13.574a47.766 47.766 0 0 1 23.59-6.223c26.36 0 47.8 21.442 47.8 47.801v26.734H171.567a7.494 7.494 0 0 0-7.492 7.496 7.494 7.494 0 0 0 7.492 7.497h173.188v27.832c0 2.105-1.711 3.82-3.816 3.82H106.449a3.823 3.823 0 0 1-3.816-3.82V105.02h33.355a7.495 7.495 0 0 0 7.496-7.497 7.495 7.495 0 0 0-7.496-7.496h-33.355V63.293c0-26.36 21.441-47.8 47.8-47.8zM14.992 156.578c0-14.969 27.59-29.816 72.649-39.433v15.707c0 10.37 8.437 18.808 18.808 18.808h234.489c10.37 0 18.808-8.437 18.808-18.808v-15.707c45.059 9.617 72.652 24.464 72.652 39.433 0 12.016-20.336 39.961-208.703 39.961-188.367 0-208.703-27.945-208.703-39.96zM132.293 468.16v-68.777a129.484 129.484 0 0 0 12.383 8.012c3.793 1.94 7.199 1.003 10.219-2.81a7.498 7.498 0 0 0-2.81-10.222c-32.202-18.324-53.628-51.187-57.312-87.91a7.495 7.495 0 0 0-6.785-6.715c-21.078-1.906-36.972-19.324-36.972-40.511v-16.094c0-10.95 8.91-19.856 19.855-19.856H86.7a7.495 7.495 0 0 0 7.496-7.496v-10.648c33.79 4.25 77.184 6.398 129.496 6.398 48.125 0 88.7-1.82 121.196-5.418v9.668a7.492 7.492 0 0 0 7.496 7.492h16.133c10.949 0 19.855 8.91 19.855 19.856v16.094c0 20.976-16.355 38.78-37.234 40.535a7.496 7.496 0 0 0-6.832 6.719 114.35 114.35 0 0 1-1.91 12.175H287.43a65.862 65.862 0 0 0 2.261-14.261c.13-2.766-.89-5.5-2.8-7.504a10.16 10.16 0 0 0-7.32-3.133H167.815c-2.754 0-5.421 1.14-7.32 3.133a10.22 10.22 0 0 0-2.8 7.504c1.62 34.554 29.456 61.757 63.808 62.875v41.988h-12.95c-8.784 0-17.534-.996-26.007-2.969-4.035-.937-8.063 1.574-9 5.606s1.57 8.058 5.605 8.996a130.095 130.095 0 0 0 29.403 3.355h12.949v36.727c0 6.488 1.91 12.531 5.187 17.617h-83.976c-5.746 0-10.422-4.676-10.422-10.426zm89.21-116.902v1.02c-24.632-1.036-44.827-19.434-48.347-43.536H274.23a50.475 50.475 0 0 1-2.5 9.91h-17.62c-17.977 0-32.606 14.63-32.606 32.606zm275.505 109.715c0 9.71-7.903 17.613-17.613 17.613H254.109c-9.71 0-17.613-7.902-17.613-17.613V351.258c0-9.711 7.902-17.613 17.613-17.613h225.286c9.71 0 17.613 7.902 17.613 17.613zm0 0"/>
+				<path d="M327.938 360.621c-23.61 0-42.813 19.207-42.813 42.813 0 23.605 19.203 42.812 42.813 42.812 23.605 0 42.808-19.207 42.808-42.812 0-23.606-19.203-42.813-42.809-42.813zm0 70.633c-15.34 0-27.82-12.48-27.82-27.82s12.48-27.82 27.82-27.82 27.82 12.48 27.82 27.82-12.48 27.82-27.82 27.82zm0 0"/>
+				<path d="M327.938 337.988c-36.086 0-65.446 29.36-65.446 65.446s29.36 65.445 65.445 65.445c13.293 0 26.098-3.98 37.032-11.512a7.492 7.492 0 0 0 1.922-10.422c-2.344-3.41-7.012-4.27-10.422-1.925-8.422 5.8-18.29 8.867-28.531 8.867-27.82 0-50.454-22.633-50.454-50.453 0-27.82 22.633-50.454 50.454-50.454s50.453 22.633 50.453 50.454c0 6.714-1.301 13.238-3.871 19.386a7.491 7.491 0 0 0 4.023 9.805 7.487 7.487 0 0 0 9.805-4.023 64.94 64.94 0 0 0 5.035-25.168c0-36.086-29.36-65.446-65.446-65.446zm0 0M470.645 352.328h-45.547c-9.364 0-16.98 7.617-16.98 16.98v2.512c0 9.364 7.616 16.98 16.98 16.98h45.547c9.363 0 16.98-7.616 16.98-16.98v-2.511c.004-9.364-7.617-16.98-16.98-16.98zm1.992 19.492a1.992 1.992 0 0 1-1.992 1.989h-45.547a1.992 1.992 0 0 1-1.993-1.989v-2.511c0-1.098.895-1.989 1.993-1.989h45.547c1.097 0 1.992.89 1.992 1.989zm0 0"/>
+			</symbol>
+
+			<svg id="icon-github" viewBox="0 0 33 33">
+				<title>github</title>
+				<path d="M16.608.455C7.614.455.32 7.748.32 16.745c0 7.197 4.667 13.302 11.14 15.456.815.15 1.112-.353 1.112-.785 0-.386-.014-1.411-.022-2.77-4.531.984-5.487-2.184-5.487-2.184-.741-1.882-1.809-2.383-1.809-2.383-1.479-1.01.112-.99.112-.99 1.635.115 2.495 1.679 2.495 1.679 1.453 2.489 3.813 1.77 4.741 1.353.148-1.052.569-1.77 1.034-2.177-3.617-.411-7.42-1.809-7.42-8.051 0-1.778.635-3.233 1.677-4.371-.168-.412-.727-2.069.16-4.311 0 0 1.367-.438 4.479 1.67a15.602 15.602 0 0 1 4.078-.549 15.62 15.62 0 0 1 4.078.549c3.11-2.108 4.475-1.67 4.475-1.67.889 2.242.33 3.899.163 4.311C26.37 12.66 27 14.115 27 15.893c0 6.258-3.809 7.635-7.437 8.038.584.503 1.105 1.497 1.105 3.017 0 2.177-.02 3.934-.02 4.468 0 .436.294.943 1.12.784 6.468-2.159 11.131-8.26 11.131-15.455 0-8.997-7.294-16.29-16.291-16.29"></path>
+			</svg>
+			<symbol id="icon-caret" viewBox="0 0 24 13">
+				<title>caret</title>
+				<path d="M23.646.328a.842.842 0 0 0-1.19 0l-10.459 10.48L1.517.328a.842.842 0 0 0-1.189 1.19L11.382 12.57c.164.164.369.246.595.246.205 0 .43-.082.594-.246L23.625 1.518a.824.824 0 0 0 .02-1.19z"/>
+			</symbol>
+
+			<symbol id="icon-tripod" viewBox="-32 0 496 496" xmlns="http://www.w3.org/2000/svg">
+				<path d="M216 64c-17.648 0-32 14.352-32 32s14.352 32 32 32 32-14.352 32-32-14.352-32-32-32zm0 48c-8.824 0-16-7.176-16-16s7.176-16 16-16 16 7.176 16 16-7.176 16-16 16zm0 0"/>
+				<path d="M311.313 234.625l22.062 22.063c4.715 4.718 10.984 7.312 17.656 7.312 13.77 0 24.969-11.2 24.969-24.969 0-6.574-2.664-13.008-7.313-17.656l-22.062-22.063c-4.715-4.718-10.984-7.312-17.656-7.312-4.762 0-9.168 1.406-12.953 3.727L298.426 184h-41.48l12-24H320c8.824 0 16-7.176 16-16V40c0-8.824-7.176-16-16-16h-51.719l-16-24H179.72l-16 24H112c-8.824 0-16 7.176-16 16v104c0 8.824 7.176 16 16 16h51.055L176 185.887V208h-16v38.23L57.969 465.992A21.2 21.2 0 0 0 56 474.887C56 486.527 65.473 496 77.105 496h2.286a21.11 21.11 0 0 0 19.37-12.719l41.653-96.129L192 412.945V472c0 13.23 10.77 24 24 24s24-10.77 24-24v-59.055l51.586-25.793 41.652 96.13A21.102 21.102 0 0 0 352.61 496h2.286c11.632 0 21.105-9.473 21.105-21.113 0-3.055-.68-6.133-1.96-8.88L272 246.23V208h-16v-8h37.574l12.13 8.09c-1.056 2.765-1.704 5.742-1.704 8.879 0 6.574 2.664 13.008 7.313 17.656zM168 96c0-26.473 21.527-48 48-48s48 21.527 48 48-21.527 48-48 48-48-21.527-48-48zm-56-56h60.281l16-24h55.438l16 24H320v104h-61.809C271.527 132.266 280 115.121 280 96c0-35.29-28.71-64-64-64s-64 28.71-64 64c0 19.121 8.473 36.266 21.809 48H112zm139.055 120l-8 16h-54.11l-8-16zM192 192h16v16h-16zm-16 32h80v16h-80zM84.078 476.922A5.093 5.093 0 0 1 79.391 480h-2.286A5.111 5.111 0 0 1 72 474.887c0-.735.168-1.48.48-2.153L173.105 256h6.711zm62.715-104.473L192 268.121v126.934zM216 480c-4.406 0-8-3.586-8-8V256h16v216c0 4.414-3.594 8-8 8zm24-84.945V268.12l45.207 104.328zm120 79.832a5.111 5.111 0 0 1-5.105 5.113h-2.286a5.109 5.109 0 0 1-4.687-3.078L252.184 256h6.71l100.641 216.762c.297.652.465 1.398.465 2.125zM224 208v-16h16v16zm111.313 2.625l22.062 22.062a9.064 9.064 0 0 1 2.625 6.344c0 4.946-4.023 8.969-8.969 8.969a8.905 8.905 0 0 1-6.344-2.625l-22.062-22.063A9.064 9.064 0 0 1 320 216.97c0-4.946 4.023-8.969 8.969-8.969 2.398 0 4.648.93 6.344 2.625zm0 0"/>
+				<path d="M288 112h16v16h-16zm0 0M128 112h16v16h-16zm0 0M62.633 137.938l11.312-11.313L59.313 112H80V96H59.312l14.633-14.625-11.312-11.313L48 84.689V64H32v20.688L17.367 70.061 6.055 81.376 20.687 96H0v16h20.688L6.055 126.625l11.312 11.313L32 123.313V144h16v-20.688zM46.625 120h-13.25L24 110.625v-13.25L33.375 88h13.25L56 97.375v13.25zm0 0M432 144h-20.688l14.633-14.625-11.312-11.313L400 132.689V112h-16v20.688l-14.633-14.625-11.312 11.312L372.687 144H352v16h20.688l-14.633 14.625 11.312 11.313L384 171.313V192h16v-20.688l14.633 14.625 11.312-11.312L411.313 160H432zm-24 1.375v13.25L398.625 168h-13.25L376 158.625v-13.25l9.375-9.375h13.25zm0 0"/>
+			</symbol>
+		</svg>
+		<main>
+			<div class="content content--fixed">
+				<header class="codrops-header">
+					<div class="codrops-links">
+						<a class="codrops-icon codrops-icon--drop" href="https://tympanus.net/codrops/?p=35450" title="Back to the article"><svg class="icon icon--drop"><use xlink:href="#icon-camera"></use></svg></a>
+					</div>
+					<h1 class="codrops-header__title"><a href="https://tympanus.net/codrops/?p=35450">Ajiths' Photography Portfolio</a></h1>
+				</header>
+				<p class="info">Inspired by my dreams and imagination</p>
+				<a class="github" href="https://github.com/codrops/MotionRevealSlideshow/" title="Avail my service"><svg class="icon icon--github"><use xlink:href="#icon-tripod"></use></svg></a>
+			</div>
+			<div class="slideshow">
+				<div class="slide">
+					<div class="preview">
+						<div class="preview__img-wrap">
+							<div class="preview__img" style="background-image: url(img/contactbg.jpg);"></div>
+							<div class="preview__img-reveal"></div>
+						</div>
+						<h3 class="preview__title">Carmino Burano</h3>
+						<div class="preview__content">
+							<p>You’re not your job. You’re not how much money you have in the bank. You’re not the car you drive. You’re not the contents of your wallet. You’re not your f***ing khakis. You’re the all-singing, all-dancing crap of the world. What do you want? Wanna go back to the s*** job, f***in’ condo world, watching sitcoms? F*** you, I won’t do it. Fifth rule: one fight at a time, fellas.</p>
+						</div>
+					</div>
+					<div class="slide__img-wrap">
+						<div class="slide__img" style="background-image: url(img/1.jpg);"></div>
+						<div class="slide__img-reveal"></div>
+					</div>
+					<span class="slide__number">#01</span>
+				</div>
+				<div class="slide">
+					<div class="preview">
+						<div class="preview__img-wrap">
+							<div class="preview__img" style="background-image: url(img/contactbg.jpg);"></div>
+							<div class="preview__img-reveal"></div>
+						</div>
+						<h3 class="preview__title">Jackardi Jack</h3>
+						<div class="preview__content">
+							<p>You’re not your job. You’re not how much money you have in the bank. You’re not the car you drive. You’re not the contents of your wallet. You’re not your f***ing khakis. You’re the all-singing, all-dancing crap of the world. What do you want? Wanna go back to the s*** job, f***in’ condo world, watching sitcoms? F*** you, I won’t do it. Fifth rule: one fight at a time, fellas.</p>
+						</div>
+					</div>
+					<div class="slide__img-wrap">
+						<div class="slide__img" style="background-image: url(img/2.jpg);"></div>
+						<div class="slide__img-reveal"></div>
+					</div>
+					<span class="slide__number">#02</span>
+				</div>
+				<nav class="slidenav">
+					<button class="slidenav__item slidenav__item--prev">Previous</button>
+					<button class="slidenav__item slidenav__item--next">Next</button>
+					<button class="slidenav__preview">
+						<svg class="icon icon--caret">
+							<use xlink:href="#icon-caret"></use>
+						</svg>
+					</button>
+				</nav>
+			</div>
+		</main>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/demo.js"></script>
+	</body>
+</html>
